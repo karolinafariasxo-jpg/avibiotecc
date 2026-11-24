@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123f32">
+<meta name="description" content="AVIBIOTEC — Biotecnologia e Nutrição Animal Integrada. Planejamento estratégico acadêmico.">
+<title>AVIBIOTEC | Biotecnologia e Nutrição Animal Integrada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#174d3d;--deep:#10392f;--lime:#a8c85a;--gold:#d9b548;--cream:#f4f3ec;--ink:#202a25;--muted:#68746c;--white:#fff;--line:#e4e7dd;--soft:#eaf0e7;--shadow:0 18px 55px rgba(20,55,42,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.65}h1,h2,h3,h4{font-family:Manrope,sans-serif;line-height:1.12;margin:0 0 16px}h1{font-size:clamp(2.8rem,7vw,6.4rem);letter-spacing:-.065em}h2{font-size:clamp(2rem,4vw,3.4rem);letter-spacing:-.045em;color:var(--deep)}h3{font-size:1.25rem;color:var(--deep)}p{margin:0 0 14px}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}.eyebrow{color:var(--forest);font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}.section{padding:104px 0}.section-head{max-width:700px;margin-bottom:42px}.section-head p{color:var(--muted);font-size:1.06rem}.nav{position:sticky;top:0;z-index:20;background:rgba(244,243,236,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(23,77,61,.1)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--forest);font-family:Manrope;font-weight:800;letter-spacing:.04em}.brand img{width:48px;height:48px;object-fit:contain}.links{display:flex;gap:23px;align-items:center}.links a{color:#43534a;text-decoration:none;font-size:.88rem;font-weight:600}.links a:hover{color:var(--forest)}.menu-btn{display:none;border:0;background:var(--forest);color:white;border-radius:10px;padding:10px 13px;font-size:1rem}
+.hero{background:var(--deep);color:white;position:relative;overflow:hidden;padding:78px 0 92px}.hero:before{content:"";position:absolute;width:650px;height:650px;border:1px solid rgba(168,200,90,.18);border-radius:50%;right:-130px;top:-270px;box-shadow:0 0 0 70px rgba(168,200,90,.035),0 0 0 140px rgba(168,200,90,.025)}.hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.hero .eyebrow{color:var(--lime)}.hero h1{margin:18px 0 18px}.hero h1 span{color:var(--gold)}.hero-copy{font-size:1.15rem;color:#d5e0d8;max-width:590px}.hero-note{display:inline-flex;align-items:center;gap:9px;margin-top:26px;padding:10px 15px;border:1px solid rgba(255,255,255,.18);border-radius:99px;color:#e6ebdf;font-size:.83rem}.hero-logo{width:min(100%,470px);margin:auto;display:block;filter:drop-shadow(0 22px 35px rgba(0,0,0,.15));background:var(--cream);border-radius:28px;padding:28px}.aviary-feature{position:relative;margin-top:54px;border-radius:28px;overflow:hidden;min-height:330px;background:#173f32;box-shadow:var(--shadow)}.aviary-feature img{width:100%;height:420px;max-height:52vw;min-height:300px;object-fit:cover;display:block}.aviary-caption{position:absolute;left:28px;bottom:26px;max-width:520px;padding:18px 22px;border-radius:18px;background:rgba(13,45,38,.88);color:white;backdrop-filter:blur(8px)}.aviary-caption strong{display:block;font:800 1.25rem Manrope;color:#d9e9c0;margin-bottom:5px}.aviary-caption span{font-size:.9rem;color:#e1e9e2}.photo-note{font-size:.78rem;color:var(--muted);margin:10px 2px 0}.product-photo{width:100%;height:190px;object-fit:cover;display:block}.image-strip{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center;margin-top:34px}.image-strip img{width:100%;height:250px;object-fit:cover;border-radius:22px}.image-strip-copy{padding:8px 4px}.image-strip-copy h3{font-size:1.45rem}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:700;font-size:.92rem;transition:.2s}.btn-primary{background:var(--lime);color:#183b2e}.btn-primary:hover{transform:translateY(-2px);background:#bbd975}.btn-ghost{border:1px solid rgba(255,255,255,.35);color:white}.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-35px;position:relative}.stat{background:white;border:1px solid var(--line);border-radius:18px;padding:23px;box-shadow:var(--shadow)}.stat strong{display:block;color:var(--forest);font:800 1.8rem Manrope;letter-spacing:-.05em}.stat span{font-size:.83rem;color:var(--muted)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 8px 30px rgba(20,55,42,.04)}.card p{color:var(--muted)}.icon{width:44px;height:44px;border-radius:14px;background:var(--soft);display:grid;place-items:center;color:var(--forest);font-size:1.25rem;margin-bottom:18px}.pill{display:inline-block;border-radius:99px;background:#edf2e7;color:var(--forest);padding:5px 11px;font-size:.75rem;font-weight:700;margin:0 5px 7px 0}.product-card{padding:0;overflow:hidden}.product-top{padding:28px 28px 22px;background:var(--forest);color:white}.product-top.lime{background:#e8efcf;color:var(--deep)}.product-top .eyebrow{color:var(--lime)}.product-top.lime .eyebrow{color:var(--forest)}.product-top h3{font-size:1.65rem;color:inherit;margin:9px 0}.product-body{padding:26px 28px}.product-body p{font-size:.94rem}.specs{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.spec{background:var(--cream);border-radius:10px;padding:8px 11px;font-size:.8rem;color:#48564d}
+.callout{border-left:4px solid var(--gold);background:#fff9e9;border-radius:0 16px 16px 0;padding:19px 22px;color:#615333}.callout strong{color:#493c1c}.notice{background:#fff;border:1px solid #e8dcae;border-radius:18px;padding:22px;display:flex;gap:15px;align-items:flex-start}.notice b{color:#735d1d}.notice .symbol{font-size:1.45rem}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;counter-reset:step}.step{background:white;border:1px solid var(--line);border-radius:16px;padding:19px;position:relative}.step:before{counter-increment:step;content:"0" counter(step);display:block;color:var(--gold);font:800 1.25rem Manrope;margin-bottom:12px}.step p{font-size:.87rem;color:var(--muted);margin:0}
+.swot{display:grid;grid-template-columns:1fr 1fr;gap:14px}.swot-box{border-radius:20px;padding:25px;background:white;border:1px solid var(--line)}.swot-box h3{display:flex;align-items:center;gap:10px}.swot-box ul{margin:0;padding-left:19px;color:#56635a}.swot-box li{margin:7px 0}.swot-box.strength{border-top:5px solid var(--forest)}.swot-box.weak{border-top:5px solid #b97960}.swot-box.opportunity{border-top:5px solid var(--lime)}.swot-box.threat{border-top:5px solid var(--gold)}
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.year{border-top:3px solid var(--lime);padding:17px 14px;background:white;border-radius:0 0 15px 15px}.year strong{font:800 1.7rem Manrope;color:var(--forest)}.year p{font-size:.84rem;color:var(--muted);margin:8px 0 0}
+.finance{background:var(--deep);color:white}.finance h2{color:white}.finance .section-head p{color:#c4d2c9}.finance .card{color:var(--ink)}.finance .stat{box-shadow:none}.bars{display:flex;align-items:end;gap:14px;height:230px;padding:20px 10px 0;border-bottom:1px solid #dfe6dc}.bar-col{flex:1;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:end;height:100%;gap:8px}.bar{width:min(58px,80%);background:var(--lime);border-radius:9px 9px 0 0;min-height:6px}.bar.neg{background:#d99b78}.bar-col span{font-size:.78rem;color:#d4dfd6}.bar-col small{font-size:.7rem;color:#b9c8bd}.finance-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.big-number{font:800 clamp(2rem,4vw,3.4rem) Manrope;color:var(--gold);letter-spacing:-.05em}.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line);border-radius:18px}.data-table{width:100%;border-collapse:collapse;min-width:540px}.data-table th,.data-table td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line);font-size:.9rem}.data-table th{background:#edf2e7;color:var(--forest);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}.data-table tr:last-child td{border-bottom:0}
+.org{display:grid;gap:13px;max-width:820px;margin:auto;text-align:center}.org-top{background:var(--deep);color:white;border-radius:14px;padding:16px;font-weight:700}.org-four{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.org-four div{background:white;border:1px solid var(--line);padding:17px 10px;border-radius:14px}.org-four b{display:block;color:var(--forest)}.org-four small{color:var(--muted)}.org-bottom{display:grid;grid-template-columns:1fr 1fr;gap:14px}.org-bottom div{background:#e8efdf;border-radius:15px;padding:18px}.org-bottom b{color:var(--forest)}
+.footer{background:#0d2d26;color:#c9d6ce;padding:55px 0 28px}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}.footer strong{font:800 1.5rem Manrope;color:white}.footer p{max-width:520px;color:#aebfb4;font-size:.9rem}.footer small{display:block;border-top:1px solid #315247;padding-top:20px;margin-top:35px;color:#93a89b}
+details{background:white;border:1px solid var(--line);border-radius:14px;padding:17px 20px;margin-bottom:10px}summary{cursor:pointer;font-weight:700;color:var(--deep)}details p{color:var(--muted);margin:12px 0 0}
+@media(max-width:900px){.links{display:none;position:absolute;top:76px;left:0;right:0;background:var(--cream);padding:18px 24px 24px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.links.open{display:flex}.menu-btn{display:block}.hero-grid{grid-template-columns:1fr;gap:35px}.hero-logo{width:min(75%,400px)}.stats{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.section{padding:74px 0}.wrap{width:min(100% - 30px,1160px)}.hero{padding:60px 0 75px}.hero-logo{width:85%;padding:18px}.stats{margin-top:-24px;gap:9px}.stat{padding:16px}.stat strong{font-size:1.4rem}.grid-2,.grid-3,.finance-grid{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.swot{grid-template-columns:1fr}.timeline{grid-template-columns:1fr 1fr}.org-four{grid-template-columns:1fr 1fr}.org-bottom{grid-template-columns:1fr}.footer-grid{display:block}.footer-grid>div+div{margin-top:22px}}
+</style>
+</head>
+<body>
+<header class="nav">
+ <div class="wrap nav-inner">
+  <a class="brand" href="#inicio"><img src="assets/avibiotec-logo.png" alt="Logotipo AVIBIOTEC"><span>AVIBIOTEC</span></a>
+  <button class="menu-btn" aria-label="Abrir menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+  <nav class="links">
+   <a href="#empresa">Empresa</a><a href="#solucoes">Soluções</a><a href="#estrategia">Estratégia</a><a href="#gestao">Gestão</a><a href="#financeiro">Financeiro</a><a href="#equipe">Equipe</a>
+  </nav>
+ </div>
+</header>
+<main>
+<section class="hero" id="inicio">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">Planejamento estratégico • Avicultura de corte</div>
+   <h1>AVIBI<span>O</span>TEC</h1>
+   <p class="hero-copy">Biotecnologia e Nutrição Animal Integrada. Duas soluções complementares pensadas para conectar a nutrição das aves à qualidade do ambiente de criação.</p>
+   <div class="hero-actions"><a class="btn btn-primary" href="#solucoes">Conheça as soluções <span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#empresa">Explorar a empresa</a></div>
+   <div class="hero-note">✳ Projeto acadêmico • Empresa fictícia • 2026</div>
+  </div>
+  <div><img class="hero-logo" src="assets/avibiotec-logo.png" alt="Logotipo AVIBIOTEC com símbolo de galo e microbiota"></div>
+ </div>
+</section>
+<div class="wrap aviary-feature"><img src="assets/aviario-frangos.png" alt="Frangos de corte em aviário com comedouros, bebedouros e cama de maravalha"><div class="aviary-caption"><strong>O ambiente também faz parte da produção.</strong><span>Conheça a proposta AVIBIOTEC para integrar nutrição das aves e manejo da cama do aviário.</span></div></div>
+<div class="wrap stats">
+ <div class="stat"><strong>2</strong><span>soluções integradas</span></div>
+ <div class="stat"><strong>4</strong><span>áreas funcionais</span></div>
+ <div class="stat"><strong>300</strong><span>clientes na meta do ano 5</span></div>
+ <div class="stat"><strong>2031</strong><span>visão de futuro simulada</span></div>
+</div>
+
+<section class="section" id="empresa">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">01 • Quem somos</div><h2>Uma proposta que conecta ave e ambiente.</h2><p>A AVIBIOTEC é uma empresa fictícia de biotecnologia e nutrição animal para a avicultura de corte, criada para aplicar conceitos de administração ao contexto da Zootecnia.</p></div>
+  <div class="grid-2">
+   <article class="card"><div class="icon">⌂</div><h3>Estrutura planejada</h3><p><b>Matriz — Campinas/SP</b><br>Gestão estratégica, financeiro, comercial, marketing, compras e desenvolvimento conceitual de produtos.</p><p><b>Filial Centro-Oeste — Barra do Garças/MT</b><br>Operação, fabricação, controle de qualidade, expedição e atendimento regional.</p><span class="pill">Localizações simuladas</span></article>
+   <article class="card"><div class="icon">◎</div><h3>Nosso propósito</h3><p>Promover a saúde e o desempenho de frangos de corte com soluções que integram nutrição e ambiente, contribuindo para reduzir a dependência de antimicrobianos como promotores de crescimento.</p><div class="callout"><strong>Visão 2031</strong><br>Ser reconhecida como referência regional em soluções microbiológicas integradas para a avicultura de corte.</div></article>
+  </div>
+  <div class="grid-3" style="margin-top:20px">
+   <article class="card"><div class="icon">✦</div><h3>Inovação com propósito</h3><p>Desenvolvimento de soluções com responsabilidade técnica e transparência.</p></article>
+   <article class="card"><div class="icon">♧</div><h3>Saúde Única</h3><p>Integração entre saúde humana, animal e ambiental como princípio de atuação.</p></article>
+   <article class="card"><div class="icon">◇</div><h3>Ética no campo</h3><p>Segurança sanitária, sustentabilidade e preço justo para o produtor.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="solucoes" style="background:#e9eee5">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">02 • Portfólio</div><h2>Duas frentes. Um sistema de produção.</h2><p>A proposta de valor está na integração entre a alimentação das aves e o ambiente do aviário, com uma marca e assistência técnica.</p></div>
+  <div class="grid-2">
+   <article class="card product-card">
+    <div class="product-top"><div class="eyebrow">AVIBIOTEC FEED</div><h3>Ração Plus</h3><p style="color:#e0e9e2">Nutrição com probióticos para frangos de corte.</p></div>
+    <div class="product-body"><p>Ração completa formulada por fase, com milho, farelo de soja, óleo, minerais, aminoácidos, premix vitamínico-mineral e aditivo probiótico composto por <i>Bacillus licheniformis</i> e <i>Bacillus subtilis</i>.</p><div class="specs"><span class="spec">Protótipo: 1 kg</span><span class="spec">Comercial: sacaria de 40 kg</span><span class="spec">10⁹ UFC/kg (proposta)</span></div>
+     <h4 style="margin-top:22px">Fases de alimentação</h4><div class="table-wrap"><table class="data-table"><thead><tr><th>Fase</th><th>Idade</th><th>PB mínima</th></tr></thead><tbody><tr><td>Inicial</td><td>1–21 dias</td><td>22,5%</td></tr><tr><td>Crescimento</td><td>22–35 dias</td><td>20,0%</td></tr><tr><td>Final</td><td>36 dias até o abate</td><td>18,0%</td></tr></tbody></table></div>
+    </div>
+   </article>
+   <article class="card product-card">
+    <div class="product-top lime"><div class="eyebrow">AVIBIOTEC LITTER</div><h3>Cama Viva</h3><p style="color:#4c5c4d">Inoculante líquido para a cama do aviário.</p></div>
+    <div class="product-body"><p>Produto líquido com <i>Bacillus licheniformis</i> e <i>Bacillus subtilis</i> em suspensão aquosa, pensado para aplicação na cama de aviários de frangos de corte.</p><div class="specs"><span class="spec">Protótipo: 1 litro</span><span class="spec">Comercial: 5 L e 20 L</span><span class="spec">10⁹ UFC/mL (proposta)</span></div>
+     <h4 style="margin-top:22px">Modo de uso proposto</h4><div class="step" style="margin-top:12px"><b>1 L do produto</b><p>Diluir em 20 litros de água limpa e pulverizar uniformemente sobre 100 m² de cama, a cada novo lote.</p></div>
+    </div>
+   </article>
+  </div>
+  <div class="image-strip"><img src="assets/aviario-frangos.png" alt="Vista interna de aviário de frangos de corte"><div class="image-strip-copy"><div class="eyebrow">Produção de frangos de corte</div><h3>Nutrição e ambiente caminham juntos.</h3><p style="color:var(--muted)">A proposta da AVIBIOTEC considera dois pontos do sistema produtivo: a alimentação das aves e as condições da cama utilizada no aviário.</p></div></div>
+  <div class="notice" style="margin-top:22px"><div class="symbol">ⓘ</div><div><b>Importante: proposta conceitual, não validação.</b><p>Os produtos são conceitos acadêmicos e não foram testados pela AVIBIOTEC. As doses e garantias apresentadas são propostas simuladas. Estudos citados no trabalho pertencem aos respectivos autores e não comprovam o desempenho destes produtos.</p></div></div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">03 • Como se complementam</div><h2>A ideia da barreira dupla.</h2><p>Uma visão integrada da produção: atuar na nutrição das aves e, ao mesmo tempo, considerar o ambiente em que elas são criadas.</p></div>
+  <div class="grid-3">
+   <article class="card"><div class="icon">①</div><h3>Nutrição</h3><p>Ração Plus: solução alimentar com aditivo probiótico para as diferentes fases de criação.</p></article>
+   <article class="card"><div class="icon">②</div><h3>Ambiente</h3><p>Cama Viva: proposta de aplicação de microrganismos benéficos diretamente na cama do aviário.</p></article>
+   <article class="card"><div class="icon">③</div><h3>Integração</h3><p>Um único fornecedor, uma assistência técnica e uma marca para dois pontos do sistema produtivo.</p></article>
+  </div>
+  <div class="callout" style="margin-top:22px"><strong>O que a evidência permite afirmar?</strong><br>Em Cirilo (2022), o probiótico na ração apresentou melhor conversão alimentar; o probiótico apenas na cama não diferiu do controle, e a combinação ração + cama não diferiu estatisticamente da ração sozinha. Por isso, a “barreira dupla” é uma proposta de valor, não um efeito comprovado.</div>
+ </div>
+</section>
+
+<section class="section" id="estrategia" style="background:#fff">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">04 • Mercado e posicionamento</div><h2>Atuação B2B, com foco técnico regional.</h2><p>A AVIBIOTEC direciona sua oferta a organizações que compram insumos para a produção de frangos de corte.</p></div>
+  <div class="grid-3">
+   <article class="card"><div class="icon">▦</div><h3>Cooperativas agroindustriais</h3><p>Prioridade alta. Compram ração e insumos para seus cooperados e valorizam soluções técnicas.</p></article>
+   <article class="card"><div class="icon">⌂</div><h3>Granjas médias e grandes</h3><p>Prioridade alta. Produtores independentes ou integrados, atentos ao custo por ave e à assistência técnica.</p></article>
+   <article class="card"><div class="icon">⇄</div><h3>Grandes integradoras</h3><p>Alvo estratégico de longo prazo, devido ao alto volume e aos processos de compra mais longos.</p></article>
+  </div>
+  <div class="grid-2" style="margin-top:22px">
+   <div class="card"><h3>Posicionamento</h3><p>Para cooperativas e granjas que buscam reduzir o uso de antimicrobianos como promotores de crescimento, a AVIBIOTEC oferece ração e produto de cama integrados, com atendimento técnico regional.</p><span class="pill">Diferenciação com foco</span><span class="pill">Venda consultiva</span></div>
+   <div class="card"><h3>Mix de marketing • 4 Ps</h3><p><b>Produto:</b> Ração Plus e Cama Viva.</p><p><b>Preço:</b> R$ 3.300/t e R$ 60/L (premissas acadêmicas).</p><p><b>Praça:</b> venda direta, com distribuição a partir da filial.</p><p><b>Promoção:</b> visitas técnicas, materiais, eventos e demonstração de protótipos.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" style="background:#e9eee5">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">05 • Diagnóstico</div><h2>Leitura estratégica do ambiente.</h2><p>A análise SWOT organiza fatores internos e externos que influenciam o planejamento da empresa.</p></div>
+  <div class="swot">
+   <div class="swot-box strength"><h3>＋ Forças</h3><ul><li>Proposta integrada de ração e cama.</li><li>Equipe com formação zootécnica nas quatro áreas funcionais.</li><li>Base em estudos publicados sobre probióticos de <i>Bacillus</i>.</li><li>Separação entre gestão e operação.</li></ul></div>
+   <div class="swot-box weak"><h3>− Fraquezas</h3><ul><li>Marca nova e sem reconhecimento.</li><li>Dependência de cepas de terceiros.</li><li>Produtos sem testes e dados próprios.</li><li>Custo de frete da ração e capital inicial elevado.</li></ul></div>
+   <div class="swot-box opportunity"><h3>↗ Oportunidades</h3><ul><li>Setor avícola de grande escala.</li><li>Restrições a alguns antimicrobianos como promotores.</li><li>Interesse em alternativas, como probióticos.</li><li>Filial como referência para o Centro-Oeste.</li></ul></div>
+   <div class="swot-box threat"><h3>⚠ Ameaças</h3><ul><li>Concorrentes com marcas e P&D próprios.</li><li>Câmbio e custo de importação das cepas.</li><li>Exigências e prazos regulatórios do MAPA.</li><li>Variação do preço do milho e da soja.</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="gestao">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">06 • Organização e operações</div><h2>Uma estrutura funcional e integrada.</h2><p>As quatro sócias compõem a direção e lideram as áreas funcionais. A matriz concentra a gestão; a filial conduz a operação regional.</p></div>
+  <div class="org">
+   <div class="org-top">Direção • quatro sócias</div>
+   <div class="org-four">
+    <div><b>Anna Karolina</b><small>CEO • Inovação e P&D</small></div>
+    <div><b>Ingrid</b><small>COO • Operações e logística</small></div>
+    <div><b>Maria Beatriz</b><small>CMO • Comercial e marketing</small></div>
+    <div><b>Vanessa</b><small>CFO • Financeiro e administrativo</small></div>
+   </div>
+   <div class="org-bottom"><div><b>Matriz • Campinas/SP</b><br><small>Direção, finanças, comercial, marketing, compras e desenvolvimento conceitual.</small></div><div><b>Filial • Barra do Garças/MT</b><br><small>Gerência, responsável técnico, produção, qualidade, logística e vendas técnicas.</small></div></div>
+  </div>
+  <h3 style="margin:48px 0 18px">Fluxo operacional</h3>
+  <div class="process">
+   <div class="step"><h3>Recebimento</h3><p>Conferência e armazenagem de matérias-primas e insumos.</p></div>
+   <div class="step"><h3>Preparação</h3><p>Dosagem e mistura da ração; diluição e mistura do produto líquido.</p></div>
+   <div class="step"><h3>Controle</h3><p>Verificação de qualidade, ensaque ou envase e rotulagem.</p></div>
+   <div class="step"><h3>Expedição</h3><p>Estoque, planejamento de rotas e entrega aos clientes.</p></div>
+  </div>
+  <div class="callout" style="margin-top:20px"><b>Capacidade simulada da fábrica:</b> 19.360 toneladas de ração por ano. A meta do ano 5, de 15.000 toneladas, corresponde a aproximadamente 77% dessa capacidade.</div>
+ </div>
+</section>
+
+<section class="section" style="background:#fff">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">07 • Rota de crescimento</div><h2>Cinco anos de metas progressivas.</h2><p>O planejamento projeta crescimento gradual da carteira e do volume de produção, com acompanhamento de responsáveis.</p></div>
+  <div class="timeline">
+   <div class="year"><strong>2027</strong><p><b>10 clientes</b><br>Montagem da filial e piloto comercial com parceiros.</p></div>
+   <div class="year"><strong>2028</strong><p><b>60 clientes</b><br>Início da operação regular e expansão comercial.</p></div>
+   <div class="year"><strong>2029</strong><p><b>150 clientes</b><br>Resultado operacional positivo projetado.</p></div>
+   <div class="year"><strong>2030</strong><p><b>220 clientes</b><br>Avaliar viabilidade de produção própria de cepas.</p></div>
+   <div class="year"><strong>2031</strong><p><b>300 clientes</b><br>Avaliar expansão para Goiânia e Cascavel.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section finance" id="financeiro">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow" style="color:var(--lime)">08 • Planejamento financeiro</div><h2>Viabilidade projetada, com premissas explícitas.</h2><p>Os valores abaixo são projeções acadêmicas em reais. A simulação não considera tributos, juros, depreciação ou inflação e não foi comparada a preços reais de mercado.</p></div>
+  <div class="finance-grid">
+   <div class="card"><div class="eyebrow">Investimento inicial simulado</div><div class="big-number">R$ 8,55 mi</div><p>R$ 7,05 milhões em investimento fixo e R$ 1,5 milhão em capital de giro.</p><div class="specs"><span class="spec">50% capital próprio</span><span class="spec">50% financiamento</span></div></div>
+   <div class="card"><div class="eyebrow">Resultado operacional • ano 3</div><div class="big-number">R$ 1,54 mi</div><p>A projeção passa a ser positiva no terceiro ano, após resultados negativos nos dois primeiros anos.</p></div>
+  </div>
+  <div class="card" style="margin-top:22px">
+   <h3>Receita projetada por ano</h3><p style="color:var(--muted)">Valores em milhões de reais. Anos 1 e 2 têm resultado operacional negativo.</p>
+   <div class="bars" aria-label="Gráfico de receita projetada">
+    <div class="bar-col"><small>R$ 0,75 mi</small><div class="bar" style="height:3%"></div><span>Ano 1</span></div>
+    <div class="bar-col"><small>R$ 6,50 mi</small><div class="bar" style="height:13%"></div><span>Ano 2</span></div>
+    <div class="bar-col"><small>R$ 21,20 mi</small><div class="bar" style="height:41%"></div><span>Ano 3</span></div>
+    <div class="bar-col"><small>R$ 34,73 mi</small><div class="bar" style="height:66%"></div><span>Ano 4</span></div>
+    <div class="bar-col"><small>R$ 52,31 mi</small><div class="bar" style="height:100%"></div><span>Ano 5</span></div>
+   </div>
+  </div>
+  <div class="card" style="margin-top:22px">
+   <h3>Indicadores financeiros da simulação</h3>
+   <div class="table-wrap"><table class="data-table"><thead><tr><th>Ano</th><th>Receita total</th><th>Resultado operacional</th><th>Clientes</th></tr></thead><tbody>
+    <tr><td>1</td><td>R$ 753.600</td><td style="color:#a45d42">− R$ 923.840</td><td>10</td></tr>
+    <tr><td>2</td><td>R$ 6.501.600</td><td style="color:#a45d42">− R$ 483.040</td><td>60</td></tr>
+    <tr><td>3</td><td>R$ 21.204.000</td><td>R$ 1.542.400</td><td>150</td></tr>
+    <tr><td>4</td><td>R$ 34.729.200</td><td>R$ 3.675.520</td><td>220</td></tr>
+    <tr><td>5</td><td>R$ 52.308.000</td><td>R$ 6.684.800</td><td>300</td></tr>
+   </tbody></table></div>
+   <p style="color:var(--muted);font-size:.85rem;margin-top:14px">Ponto de equilíbrio projetado no ano 3: R$ 13,84 milhões. O retorno simplificado do investimento foi estimado em cerca de 4 anos e 8 meses, sem considerar os fatores excluídos da simulação.</p>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">09 • Responsabilidade e controle</div><h2>Transparência faz parte do planejamento.</h2><p>O projeto reconhece os riscos e limitações da simulação e prevê acompanhamento periódico para corrigir desvios.</p></div>
+  <div class="grid-3">
+   <article class="card"><div class="icon">↗</div><h3>Riscos comerciais</h3><p>Baixa adoção sem dados próprios e vendas abaixo do previsto. Resposta: comunicação honesta, piloto comercial e revisão mensal das metas.</p></article>
+   <article class="card"><div class="icon">⌁</div><h3>Riscos operacionais</h3><p>Frete elevado, custo de matérias-primas e dependência de fornecedores de cepas. Resposta: rotas, volumes mínimos, compras programadas e fornecedores alternativos.</p></article>
+   <article class="card"><div class="icon">⚖</div><h3>Exigências legais</h3><p>Uma operação real exigiria registros, responsável técnico, rotulagem e licenças aplicáveis. A empresa fictícia não possui registros nem licenças.</p></article>
+  </div>
+  <div class="callout" style="margin-top:22px"><b>Controle:</b> indicadores financeiros, de clientes, processos internos e aprendizado, acompanhados mensalmente pela diretoria — lógica do Balanced Scorecard.</div>
+ </div>
+</section>
+
+<section class="section" id="equipe" style="background:#e9eee5">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">10 • Projeto acadêmico</div><h2>Construído por estudantes de Zootecnia.</h2><p>Planejamento estratégico da AVIBIOTEC, desenvolvido para a disciplina de Introdução à Administração.</p></div>
+  <div class="grid-2">
+   <div class="card"><h3>Equipe do projeto</h3><p><b>Anna Karolina</b> — CEO e diretora de Inovação e P&D (cargo fictício).</p><p><b>Ingrid</b> — COO e diretora de Operações e Logística (cargo fictício).</p><p><b>Maria Beatriz</b> — CMO e diretora Comercial e Marketing (cargo fictício).</p><p><b>Vanessa</b> — CFO e diretora Financeira e Administrativa (cargo fictício).</p></div>
+   <div class="card"><h3>Instituição</h3><p>Instituto Federal de Mato Grosso — Campus Barra do Garças.</p><p>Bacharelado em Zootecnia • 4º semestre</p><p>Disciplina: Introdução à Administração</p><p>Orientação: professora Patrícia</p><p>Barra do Garças — MT • 2026</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Perguntas frequentes</div><h2>O que é importante deixar claro?</h2></div>
+  <details><summary>A AVIBIOTEC é uma empresa real?</summary><p>Não. É uma empresa fictícia, criada exclusivamente para o trabalho acadêmico. Não possui CNPJ, registros, licenças ou operação comercial.</p></details>
+  <details><summary>Os produtos foram testados?</summary><p>Não. A AVIBIOTEC não realizou testes em animais, experimentos de laboratório ou validação prática. Os estudos citados pertencem aos seus autores e servem como referência técnica, não como validação dos produtos.</p></details>
+  <details><summary>O que significa “barreira dupla”?</summary><p>É a proposta comercial de integrar uma solução para a nutrição das aves e outra para o ambiente da cama. Não é um efeito comprovado pela empresa.</p></details>
+  <details><summary>Os valores financeiros são reais?</summary><p>Não. São projeções acadêmicas construídas a partir de premissas explícitas no trabalho, sem tributos, juros, depreciação e inflação.</p></details>
+  <details><summary>A empresa já cumpre as exigências do MAPA?</summary><p>Não. O trabalho descreve exigências que seriam aplicáveis caso a empresa fosse implementada. Nenhum registro ou licença foi solicitado ou concedido.</p></details>
+ </div>
+</section>
+</main>
+<footer class="footer">
+ <div class="wrap">
+  <div class="footer-grid"><div><strong>AVIBIOTEC</strong><p>Biotecnologia e Nutrição Animal Integrada<br>Uma proposta acadêmica para pensar a produção de frangos de corte de forma integrada.</p></div><div><span class="eyebrow" style="color:var(--lime)">Planejamento estratégico • 2026</span><p>Instituto Federal de Mato Grosso<br>Campus Barra do Garças • Bacharelado em Zootecnia</p></div></div>
+  <small>Imagens ilustrativas de ambiente avícola. © 2026 AVIBIOTEC — Projeto acadêmico fictício. Conteúdo organizado a partir do trabalho escrito fornecido pelo grupo. Não representa oferta comercial nem comprovação de eficácia dos produtos.</small>
+ </div>
+</footer>
+<script>
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('open')));
+</script>
+</body>
+</html>
